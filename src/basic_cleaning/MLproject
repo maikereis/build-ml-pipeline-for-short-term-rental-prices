@@ -6,27 +6,27 @@ entry_points:
     parameters:
 
       input_artifact:
-        description: ## ADD DESCRIPTION
+        description: Input dataset
         type: string
 
       output_artifact:
-        description: ## ADD DESCRIPTION
+        description: Output dataset
         type: string
 
       output_type:
-        description: ## ADD DESCRIPTION
+        description: A pandas dataframe (pd.DataFrame)
         type: string
 
       output_description:
-        description: ## ADD DESCRIPTION
+        description: The cleaned data. A dataframe slice where price is in between min_price and max_price
         type: string
 
       min_price:
-        description: ## ADD DESCRIPTION
+        description: The minimum acceptable price
         type: string
 
       max_price:
-        description: ## ADD DESCRIPTION
+        description: The maximum acceptable price
         type: string
 
 
